@@ -45,6 +45,8 @@ Recommends: aha,
             vulkan-tools,
             wayland-utils [linux-any],
 Suggests: samba,
+Conflicts: kinfocenter
+Provides: kinfocenter
 Description: system information viewer
  The sonic-system-info provides you with a centralized and convenient
  overview of your system and desktop environment.
