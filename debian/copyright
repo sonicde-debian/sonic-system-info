@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: sonic-system-info
 Source: https://github.com/Sonic-DE/sonic-system-info
-Upstream-Contact: plasma-devel@kde.org
+Upstream-Contact: https://github.com/Sonic-DE
 
 Files: *
 Copyright: 2025, Ismael Asensio <isma.af@gmail.com>
