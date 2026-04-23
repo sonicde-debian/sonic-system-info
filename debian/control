@@ -1,0 +1,56 @@
+Source: sonic-system-info
+Section: kde
+Maintainer: NexusSfan <nexussfan@duck.com>
+Build-Depends: debhelper-compat (= 13),
+               dh-sequence-kf6,
+               dh-sequence-plasma,
+               cmake (>= 3.16~),
+               extra-cmake-modules (>= 6.22.0~),
+               gettext,
+               libdrm-dev,
+               libegl-dev,
+               libkf6auth-dev (>= 6.22.0~),
+               libkf6config-dev (>= 6.22.0~),
+               libkf6coreaddons-dev (>= 6.22.0~),
+               libkf6doctools-dev (>= 6.22.0~),
+               libkf6i18n-dev (>= 6.22.0~),
+               libkf6kcmutils-dev (>= 6.22.0~),
+               libkf6kio-dev (>= 6.22.0~),
+               libkf6service-dev (>= 6.22.0~),
+               libkf6solid-dev (>= 6.22.0~),
+               libusb-1.0-0-dev,
+               pkgconf,
+               qml6-module-org-kde-kirigami,
+               qt6-base-dev (>= 6.10.0~),
+Standards-Version: 4.7.3
+Homepage: https://github.com/Sonic-DE/sonic-system-info
+Vcs-Browser: https://github.com/sonicde-debian/sonic-system-info
+Vcs-Git: https://github.com/sonicde-debian/sonic-system-info.git
+
+Package: sonic-system-info
+Architecture: any
+Depends: libkf6kcmutils-bin,
+         qml6-module-org-kde-kirigami,
+         systemsettings,
+         usb.ids,
+         ${misc:Depends},
+         ${plasma-version:Depends},
+         ${shlibs:Depends},
+Recommends: aha,
+            clinfo [linux-any],
+            dmidecode [any-amd64 arm64 armhf any-i386 loong64 riscv64 x32],
+            iproute2 [linux-any],
+            libdisplay-info-bin,
+            mesa-utils [linux-any],
+            pciutils,
+            pulseaudio-utils,
+            vulkan-tools,
+            wayland-utils [linux-any],
+Suggests: samba,
+Description: system information viewer
+ The sonic-system-info provides you with a centralized and convenient
+ overview of your system and desktop environment.
+ .
+ The information center is made up of multiple modules.  Each module is a
+ separate application, but the information center organizes all of these
+ programs into a convenient location.

@@ -1,0 +1,550 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: sonic-system-info
+Source: https://github.com/Sonic-DE/sonic-system-info
+Upstream-Contact: plasma-devel@kde.org
+
+Files: *
+Copyright: 2025, Ismael Asensio <isma.af@gmail.com>
+           2015, Kai Uwe Broulik <kde@privat.broulik.de>
+           2001, Matthias Hoelzer-Kluepfel <mhk@caldera.de>
+           2021, Pino Toscano <pino@debian.org>
+License: GPL-2.0-or-later
+
+Files: po/*
+Copyright: 2024, A S Alam <aalam@punlinux.org>
+           2007-2024, A S Alam <aalam@users.sf.net>
+           2023-2025, Adrián Chaves (Gallaecio)
+           2019-2025, Alexander Yavorsky <kekcuha@gmail.com>
+           2022, Alois Spitzbart <spitz234@hotmail.com>
+           2024, Antonis Geralis <capoiosct@gmail.com>
+           2013-2021, Burkhard Lück <lueck@hube-lueck.de>
+           2010, Cristina Yenyxe González García <the.blue.valkyrie@gmail.com>
+           2005-2025, Eloy Cuadra <ecuadra@eloihr.net>
+           2022-2025, Emir SARI <emir_sari@icloud.com>
+           2023-2024, Enol P. <enolp@softastur.org>
+           2007, Enrique Matias Sanchez (aka Quique) <cronopios@gmail.com>
+           2010-2023, Frederik Schwarzer <schwarzer@kde.org>
+           2010-2025, Freek de Kruijf <freekdekruijf@kde.nl>
+           2023-2025, Geraldo Simiao <geraldosimiao@fedoraproject.org>
+           2023-2025, giovanni <g.sora@tiscali.it>
+           2016-2025, Giovanni Sora <g.sora@tiscali.it>
+           2025, Guilherme Marçal Silva <guimarcalsilva@gmail.com>
+           2025, Gummi <gudmundure@gmail.com>
+           2005-2008, Jaime Robles <jaime@kde.org>
+           2011, Javier Vinal <fjvinal@gmail.com>
+           2023-2024, Johannes Obermayr <johannesobermayr@gmx.de>
+           2007-2025, Josep M. Ferrer <txemaq@gmail.com>
+           2024, Jure Repinc <jlp@holodeck1.com>
+           2024, kali <shreekantkalwar@gmail.com>
+           2024, kali <skkalwar999@gmail.com>
+           2023-2025, KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
+           2022-2025, Kisaragi Hiu <mail@kisaragi-hiu.com>
+           2022-2025, Kishore G <kishore96@gmail.com>
+           2024-2025, Kristof Kiszel <ulysses@fsf.hu>
+           2025, Luc Castermans <luc.castermans@gmail.com>
+           2025, Lucia Mrenica <lucia.mrenica@gmail.com>
+           2019-2023, Matej Mrenica <matejm98mthw@gmail.com>
+           2023, Matjaž Jeran <matjaz.jeran@amis.net>
+           2022-2025, Mincho Kondarev <mkondarev@yahoo.de>
+           2025, Olesya Gerasimenko <translation-team@basealt.ru>
+           2001-2002, Pablo de Vicente <vicente@oan.es>
+           2023-2025, Paolo Zamponi <feus73@gmail.com>
+           2024, rasmus rosendahl-kaa <rasmus@rosendahl-kaa.name>
+           2023, Roman Paholík <wizzardsk@gmail.com>
+           2022-2025, Ryuichi Yamada <ryuichi_ya220@outlook.jp>
+           2007-2025, Shinjo Park <kde@peremen.name>
+           2005-2025, Stefan Asserhäll <stefan.asserhall@gmail.com>
+           2005-2006, Stephan Johach <hunsum@gmx.de>
+           2014-2024, Steve Allewell <steve.allewell@gmail.com>
+           2004, Thomas Diehl <th.diehl@gmx.net>
+           2002, Thomas Diehl <thd@kde.org>
+           2005-2008, Thomas Reitelbach <tr@erdfunkstelle.de>
+           2015-2025, Tommi Nieminen <translator@legisign.org>
+           2024-2025, Toms Trasuns <toms.trasuns@posteo.net>
+           2015-2025, Vincenzo Reale <smart2128vr@gmail.com>
+           2021-2024, Vit Pelcak <vit@pelcak.org>
+           2014-2023, Vít Pelčák <vit@pelcak.org>
+           2013-2025, Xavier Besnard <xavier.besnard@kde.org>
+           2023-2025, Yaron Shahrabani <sh.yaron@gmail.com>
+           2025, Yuma Kakei <yumasansansan@gmail.com>
+           2008-2025, zayed <zayed.alsaidi@gmail.com>
+           2021-2025, Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+           2023-2025, Łukasz Wojniłowicz <lukasz.wojnilowicz@gmai.com>
+           2011-2025, Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+License: GPL-2.0-or-later
+
+Files: appiumtests/CMakeLists.txt
+       cmake/Findaha.cmake
+       cmake/Findclinfo.cmake
+       cmake/Finddi-edid-decode.cmake
+       cmake/Finddmidecode.cmake
+       cmake/Findeglinfo.cmake
+       cmake/Findfwupdmgr.cmake
+       cmake/Findglxinfo.cmake
+       cmake/Findip.cmake
+       cmake/Findlsblk.cmake
+       cmake/Findlscpu.cmake
+       cmake/Findlspci.cmake
+       cmake/Findpciconf.cmake
+       cmake/Findsensors.cmake
+       cmake/FindSystemSettings.cmake
+       cmake/Findvulkaninfo.cmake
+       cmake/Findwayland-info.cmake
+       cmake/Findxdpyinfo.cmake
+       cmake/ProgramFinder.cmake
+       kcms/about-distro/src/opengl-helper/CMakeLists.txt
+Copyright: 2020-2024, Harald Sitter <sitter@kde.org>
+           2022, Linus Dierheimer <linus@dierheimer.de>
+           2025, Thomas Duckworth <tduck@filotimoproject.org>
+           2022, Tobias C. Berner <tcberner@FreeBSD.org>
+License: BSD-2-Clause
+
+Files: cmake/FindUSB1.cmake
+       kcms/about-distro/src/Messages.sh
+       kcms/audio_information/CMakeLists.txt
+       kcms/block_devices/CMakeLists.txt
+       kcms/cpu/CMakeLists.txt
+       kcms/edid/CMakeLists.txt
+       kcms/egl/CMakeLists.txt
+       kcms/firmware_security/CMakeLists.txt
+       kcms/glx/CMakeLists.txt
+       kcms/helpers/CMakeLists.txt
+       kcms/helpers/dmidecode-helper/CMakeLists.txt
+       kcms/interrupts/CMakeLists.txt
+       kcms/kwinsupportinfo/CMakeLists.txt
+       kcms/memory/CMakeLists.txt
+       kcms/network/CMakeLists.txt
+       kcms/opencl/CMakeLists.txt
+       kcms/pci/CMakeLists.txt
+       kcms/samba/autotests/CMakeLists.txt
+       kcms/samba/Messages.sh
+       kcms/sensors/CMakeLists.txt
+       kcms/vulkan/CMakeLists.txt
+       kcms/wayland/CMakeLists.txt
+       kcms/xserver/CMakeLists.txt
+       src/CMakeLists.txt
+       src/Messages.sh
+Copyright: 2023, Emir SARI <emir_sari@icloud.com>
+           2012-2024, Harald Sitter <sitter@kde.org>
+           2024, Kristen McWilliam <kmcwilliampublic@gmail.com>
+           2022, Linus Dierheimer <linus@dierheimer.de>
+           2022, Nate Graham <nate@kde.org>
+           2017, Pino Toscano <toscano.pino@tiscali.it>
+           2024, Shubham Arora <shubhamarora@protonmail.com>
+           2024, Thomas Duckworth <tduck973564@gmail.com>
+           2025, Thomas Duckworth <tduck@filotimoproject.org>
+License: BSD-3-Clause
+
+Files: .git-blame-ignore-revs
+       .gitignore
+       .gitlab-ci.yml
+       kcms/about-distro/example/kcm-about-distrorc.ex
+       kcms/about-distro/README
+       kcms/audio_information/kcm_audio_information.ecma404
+       kcms/block_devices/kcm_block_devices.ecma404
+       kcms/cpu/kcm_cpu.ecma404
+       kcms/edid/kcm_edid.ecma404
+       kcms/egl/kcm_egl.ecma404
+       kcms/firmware_security/kcm_firmware_security.ecma404
+       kcms/glx/kcm_glx.ecma404
+       kcms/helpers/dmidecode-helper/org.kde.kinfocenter.dmidecode.actions
+       kcms/interrupts/kcm_interrupts.ecma404
+       kcms/kwinsupportinfo/kcm_kwinsupportinfo.ecma404.in
+       kcms/memory/kcm_memory.ecma404
+       kcms/network/kcm_network.ecma404
+       kcms/opencl/kcm_opencl.ecma404
+       kcms/pci/kcm_pci.ecma404.cmake
+       kcms/samba/org.freedesktop.Avahi.Server.xml
+       kcms/samba/org.freedesktop.DBus.Properties.xml
+       kcms/sensors/kcm_sensors.ecma404
+       kcms/vulkan/kcm_vulkan.ecma404
+       kcms/wayland/kcm_wayland.ecma404
+       kcms/xserver/kcm_xserver.ecma404
+       .kde-ci.yml
+Copyright: 2013-2024, Harald Sitter <sitter@kde.org>
+           2024, Kristen McWilliam <kmcwilliampublic@gmail.com>
+           2022, Linus Dierheimer <linus@dierheimer.de>
+           2022, Nate Graham <nate@kde.org>
+           None
+           none
+           2024, Shubham Arora <shubhamarora@protonmail.com>
+           2024, Thomas Duckworth <tduck973564@gmail.com>
+           2025, Thomas Duckworth <tduck@filotimoproject.org>
+License: CC0-1.0
+
+Files: org.kde.kinfocenter.appdata.xml
+Copyright: 2019-2020 Jonathan Riddle <jriddle@kde.org>
+License: FSFAP
+
+Files: doc/index.docbook
+Copyright: 2000 Michael McBride <no email>
+           Helge Deller (deller AT kde.org)
+           Mark Donohoe
+           Pat Dowler
+           Duncan Haldane (duncan AT kde.org)
+           Steffen Hansen (stefh AT mip.ou.dk).
+           Matthias Hoelzer-Kluepfel (hoelzer AT kde.org)
+           Martin Jones (mjones AT kde.org)
+           Jost Schenck (jost AT schenck.de)
+           Jonathan Singer (jsinger AT leeta.net)
+           Thomas Tanghus (tanghus AT earthling.net)
+           Krishna Tateneni (tateneni AT pluto.njcc.com)
+           Ellis Whitehead (ewhitehe AT uni-freiburg.de)
+License: GFDL-1.2-or-later
+
+Files: kcms/about-distro/src/CPUEntry.cpp
+       kcms/about-distro/src/CPUEntry.h
+       kcms/about-distro/src/Entry.cpp
+       kcms/about-distro/src/Entry.h
+       kcms/about-distro/src/FancyString.cpp
+       kcms/about-distro/src/FancyString.h
+       kcms/about-distro/src/GPUEntry.cpp
+       kcms/about-distro/src/GPUEntryFactory.cpp
+       kcms/about-distro/src/GPUEntryFactory.h
+       kcms/about-distro/src/GPUEntry.h
+       kcms/about-distro/src/GraphicsPlatformEntry.cpp
+       kcms/about-distro/src/GraphicsPlatformEntry.h
+       kcms/about-distro/src/KernelEntry.cpp
+       kcms/about-distro/src/KernelEntry.h
+       kcms/about-distro/src/main.cpp
+       kcms/about-distro/src/MemoryEntry.cpp
+       kcms/about-distro/src/MemoryEntry.h
+       kcms/about-distro/src/opengl-helper/main.cpp
+       kcms/about-distro/src/OSVersionEntry.cpp
+       kcms/about-distro/src/OSVersionEntry.h
+       kcms/about-distro/src/PlasmaEntry.cpp
+       kcms/about-distro/src/PlasmaEntry.h
+       kcms/about-distro/src/ServiceRunner.cpp
+       kcms/about-distro/src/ServiceRunner.h
+       kcms/about-distro/src/ThirdPartyEntry.cpp
+       kcms/about-distro/src/ThirdPartyEntry.h
+       kcms/about-distro/src/ui/main.qml
+       kcms/about-distro/src/Version.h.cmake
+       kcms/audio_information/main.cpp
+       kcms/audio_information/ui/main.qml
+       kcms/block_devices/main.cpp
+       kcms/block_devices/ui/main.qml
+       kcms/cpu/main.cpp
+       kcms/cpu/ui/main.qml
+       kcms/edid/edid.sh
+       kcms/edid/main.cpp
+       kcms/edid/ui/main.qml
+       kcms/egl/main.cpp
+       kcms/egl/ui/main.qml
+       kcms/firmware_security/fwupdmgr.sh
+       kcms/firmware_security/main.cpp
+       kcms/firmware_security/ui/main.qml
+       kcms/glx/main.cpp
+       kcms/glx/ui/main.qml
+       kcms/helpers/dmidecode-helper/helper.cpp
+       kcms/helpers/dmidecode-helper/helper.h
+       kcms/interrupts/main.cpp
+       kcms/interrupts/ui/main.qml
+       kcms/kwinsupportinfo/main.cpp
+       kcms/kwinsupportinfo/ui/main.qml
+       kcms/memory/main.cpp
+       kcms/memory/ui/main.qml
+       kcms/network/main.cpp
+       kcms/network/ui/main.qml
+       kcms/opencl/main.cpp
+       kcms/opencl/ui/main.qml
+       kcms/pci/main.cpp
+       kcms/pci/ui/main.qml
+       kcms/samba/autotests/ksambasharemodeltest.cpp
+       kcms/samba/autotests/smbmountmodeltest.cpp
+       kcms/samba/ksambasharemodel.cpp
+       kcms/samba/ksambasharemodel.h
+       kcms/samba/main.cpp
+       kcms/samba/smbmountmodel.cpp
+       kcms/samba/smbmountmodel.h
+       kcms/samba/ui/main.qml
+       kcms/samba/ui/ShareListItem.qml
+       kcms/sensors/main.cpp
+       kcms/sensors/ui/main.qml
+       kcms/vulkan/main.cpp
+       kcms/vulkan/ui/main.qml
+       kcms/wayland/main.cpp
+       kcms/wayland/ui/main.qml
+       kcms/xserver/main.cpp
+       kcms/xserver/ui/main.qml
+       src/CommandOutputContext.cpp
+       src/CommandOutputContext.h
+       src/qml/CommandOutputKCM.qml
+Copyright: 2012-2024, Harald Sitter <sitter@kde.org>
+           2022-2023, Jeremy Whiting <jeremy.whiting@collabora.com>
+           2024, Kristen McWilliam <kmcwilliampublic@gmail.com>
+           2022, Linus Dierheimer <linus@dierheimer.de>
+           2021, Méven Car <meven.car@kdemail.net>
+           2022, Nate Graham <nate@kde.org>
+           2016, Rohan Garg <rohan@kde.org>
+           2024, Shubham Arora <shubhamarora@protonmail.com>
+           2024, Thomas Duckworth <tduck973564@gmail.com>
+           2025, Thomas Duckworth <tduck@filotimoproject.org>
+           2022, Tobias C. Berner <tcberner@FreeBSD.org>
+License: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
+
+Files: kcms/energy/statisticsprovider.cpp
+       kcms/energy/statisticsprovider.h
+       kcms/energy/ui/Graph.qml
+Copyright: 2015, David Edmundson <david@davidedmundson.co.uk>
+           2025, Ismael Asensio <isma.af@gmail.com>
+License: LGPL-2.1-or-later
+
+Files: po/ca/*
+       po/ca@valencia/*
+       po/uk/*
+Copyright: 2005, Albert Astals Cid <aacid@kde.org>
+           2002-2007, Andriy Rysin <arysin@bcsii.com>
+           2002, Andriy Rysin <rysin@kde.org>
+           2003-2021, Antoni Bella Pérez <antonibella5@yahoo.com>
+           2002, Dmytro Kovalov <kov@tokyo.email.ne.jp>
+           2019, Empar Montoro Martín <montoro_mde@gva.es>
+           2005, Eugene Onischenko <oneugene@ukr.net>
+           2006-2008, Ivan Petrouchtchak <fr.ivan@ukrainian-orthodox.org>
+           2007-2024, Josep M. Ferrer <txemaq@gmail.com>
+           1998-2005, Sebastià Pla i Sanz <sps@sastia.com>
+           2008-2024, Yuri Chornoivan <yurchor@ukr.net>
+License: LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
+
+Files: logo.png
+Copyright: 2016, andreas kainz <kainz.a@gmail.com>
+License: LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
+
+Files: appiumtests/kinfocenter_appiumtests.py
+Copyright: 2023, Alexander Wilms <f.alexander.wilms@gmail.com>
+           2021-2022, Harald Sitter <sitter@kde.org>
+License: MIT
+
+Files: debian/*
+Copyright: 2024-2025, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+           2014-2020 Scarlett Moore <sgmoore@kde.org>
+           2022, Patrick Franz <deltaone@debian.org>
+License: GPL-2.0-or-later
+
+License: BSD-2-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-3-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+ .
+ 3. Neither the name of the copyright holder nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+License: CC0-1.0
+ To the extent possible under law, the author(s) have dedicated all
+ copyright and related and neighboring rights to this software to the
+ public domain worldwide. This software is distributed without any
+ warranty.
+ .
+ You should have received a copy of the CC0 Public Domain Dedication
+ along with this software. If not, see
+ <https://creativecommons.org/publicdomain/zero/1.0/>.
+ .
+ On Debian systems, the complete text of the CC0 Public Domain
+ Dedication can be found in `/usr/share/common-licenses/CC0-1.0’.
+
+License: FSFAP
+ Copying and distribution of this file, with or without modification,
+ are permitted in any medium without royalty provided the copyright
+ notice and this notice are preserved. This file is offered as-is,
+ without any warranty.
+
+License: GFDL-1.2-or-later
+ Permission is granted to copy, distribute and/or modify this
+ document under the terms of the GNU Free Documentation License,
+ Version 1.2 or any later version published by the Free Software
+ Foundation; with no Invariant Sections, no Front-Cover Texts, and no
+ Back-Cover Texts.
+ .
+ On Debian systems, the complete text of the GNU Free Documentation
+ License version 1.2 can be found in
+ `/usr/share/common-licenses/GFDL-1.2’.
+
+License: GPL-2.0-only
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in
+ `/usr/share/common-licenses/GPL-2’.
+
+License: GPL-2.0-or-later
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in
+ `/usr/share/common-licenses/GPL-2’.
+
+License: GPL-3.0-only
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GPL License as published by the Free
+ Software Foundation, version 3.
+ .
+ This package is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3’.
+
+License: LGPL-2.1-only
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License version
+ 2.1 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 2.1 can be found in
+ `/usr/share/common-licenses/LGPL-2.1’.
+
+License: LGPL-2.1-or-later
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation; either version 2.1 of the
+ License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 2.1 can be found in
+ `/usr/share/common-licenses/LGPL-2.1’.
+
+License: LGPL-3.0-only
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License version
+ 3 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library.  If not, see
+ <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 3 can be found in
+ `/usr/share/common-licenses/LGPL-3’.
+
+License: LicenseRef-KDE-Accepted-GPL
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the license or (at
+ your option) at any later version that is accepted by the membership
+ of KDE e.V. (or its successor approved by the membership of KDE
+ e.V.), which shall act as a proxy as defined in Section 14 of
+ version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ General Public License for more details.
+
+License: LicenseRef-KDE-Accepted-LGPL
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation; either version 3 of the
+ license or (at your option) any later version that is accepted by
+ the membership of KDE e.V. (or its successor approved by the
+ membership of KDE e.V.), which shall act as a proxy as defined in
+ Section 6 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ General Public License for more details.
+
+License: MIT
+ Permission is hereby granted, free of charge, to any person
+ obtaining a copy of this software and associated documentation files
+ (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge,
+ publish, distribute, sublicense, and/or sell copies of the Software,
+ and to permit persons to whom the Software is furnished to do so,
+ subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+ BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
