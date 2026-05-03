@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 
 project(kinfocenter)
-set(PROJECT_VERSION "6.6.3")
+set(PROJECT_VERSION "6.6.4")
 
 set(QT_MIN_VERSION "6.10.0")
 
@@ -45,6 +45,10 @@ pkg_check_modules(libdrm REQUIRED IMPORTED_TARGET libdrm)
 
 if(CMAKE_SYSTEM_NAME MATCHES "Linux")
     find_package(UDev REQUIRED COMPONENTS UDev)
+endif()
+
+if(UNIX AND NOT APPLE)
+    find_package(VulkanHeaders REQUIRED)
 endif()
 
 ecm_find_qmlmodule(org.kde.kirigami 2.5)
