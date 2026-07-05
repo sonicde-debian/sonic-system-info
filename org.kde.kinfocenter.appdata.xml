@@ -79,6 +79,7 @@
   <summary xml:lang="lt">Sužinoti apie sistemos aparatinę įrangą ir būseną</summary>
   <summary xml:lang="lv">Uzziniet vairāk par sistēmas aparatūru un statusu</summary>
   <summary xml:lang="nl">Kom meer te weten over de hardware van het systeem en zijn status</summary>
+  <summary xml:lang="nn">Lær om maskinvare og status på systemet</summary>
   <summary xml:lang="pl">Dowiedz się o sprzęcie na swoim systemie i jego stanie</summary>
   <summary xml:lang="pt-BR">Aprenda sobre o hardware do sistema e status</summary>
   <summary xml:lang="ro">Aflați informații despre echipament și starea sistemului</summary>
@@ -209,9 +210,9 @@
   </provides>
   <project_group>KDE</project_group>
   <releases>
+    <release version="6.6.5" date="2026-05-12"/>
     <release version="6.6.4" date="2026-04-06"/>
     <release version="6.6.3" date="2026-03-17"/>
     <release version="6.6.2" date="2026-03-03"/>
-    <release version="6.6.1" date="2026-02-24"/>
   </releases>
 </component>
