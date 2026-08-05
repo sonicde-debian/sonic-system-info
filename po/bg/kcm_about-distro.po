@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm-about-distro\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-30 00:42+0000\n"
+"POT-Creation-Date: 2026-06-26 02:42+0000\n"
 "PO-Revision-Date: 2025-05-08 18:35+0200\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
@@ -62,6 +62,14 @@ msgctxt "@label GPU type. GPU of a virtual machine"
 msgid "virtual"
 msgstr "виртуален"
 
+#: GPUEntryFactory.cpp:243
+#, fuzzy, kde-format
+#| msgctxt "@label, Unknown amount of system memory"
+#| msgid "Unknown"
+msgctxt "unknown GPU name"
+msgid "Unknown"
+msgstr " Неизвестно"
+
 #: GraphicsPlatformEntry.cpp:10
 #, kde-format
 msgid "Graphics Platform:"
@@ -78,48 +86,48 @@ msgctxt "@label %1 is the kernel version, %2 CPU bit width (e.g. 32 or 64)"
 msgid "%1 (%2-bit)"
 msgstr "%1 (%2-bit)"
 
-#: main.cpp:199
+#: main.cpp:201
 #, kde-format
 msgctxt "@label"
 msgid "Manufacturer:"
 msgstr "Производител:"
 
-#: main.cpp:202 main.cpp:219
+#: main.cpp:204 main.cpp:221
 #, kde-format
 msgctxt "@label"
 msgid "Product Name:"
 msgstr "Продуктово име:"
 
-#: main.cpp:205
+#: main.cpp:207
 #, kde-format
 msgctxt "@label"
 msgid "System Version:"
 msgstr "Версия на системата:"
 
-#: main.cpp:208 main.cpp:222
+#: main.cpp:210 main.cpp:224
 #, kde-format
 msgctxt "@label"
 msgid "Serial Number:"
 msgstr "Сериен номер:"
 
-#: main.cpp:212 main.cpp:229
+#: main.cpp:214 main.cpp:231
 #, kde-format
 msgctxt "@label unknown entry in table"
 msgid "Unknown:"
 msgstr "Неизвестно:"
 
-#: main.cpp:225
+#: main.cpp:227
 #, kde-format
 msgctxt "@label uboot is the name of a bootloader for embedded devices"
 msgid "U-Boot Version:"
 msgstr "Версия на U-Boot:"
 
-#: main.cpp:263
+#: main.cpp:265
 #, kde-format
 msgid "SonicDE Frameworks Version:"
 msgstr "Версия на SonicDE Frameworks:"
 
-#: main.cpp:264
+#: main.cpp:266
 #, kde-format
 msgid "Qt Version:"
 msgstr "Версия на Qt:"
@@ -232,49 +240,49 @@ msgctxt "@action:button"
 msgid "Copy"
 msgstr "Копиране"
 
-#: ui/main.qml:179
+#: ui/main.qml:149
 #, kde-format
 msgctxt "@action:button show a hidden entry in an overlay"
 msgid "Show"
 msgstr "Показване"
 
-#: ui/main.qml:191
+#: ui/main.qml:161
 #, kde-format
 msgctxt "@title:group"
 msgid "Software"
 msgstr "Софтуер"
 
-#: ui/main.qml:201
+#: ui/main.qml:171
 #, kde-format
 msgctxt "@title:group"
 msgid "Hardware"
 msgstr "Хардуер"
 
-#: ui/main.qml:218
+#: ui/main.qml:188
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1…"
 msgstr "Стартиране %1…"
 
-#: ui/main.qml:219
+#: ui/main.qml:189
 #, kde-format
 msgctxt "@info:tooltip launches kinfocenter from systemsettings"
 msgid "See more detailed system information"
 msgstr "Допълнителна системна информация"
 
-#: ui/main.qml:227 ui/main.qml:235
+#: ui/main.qml:197 ui/main.qml:205
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
 msgstr "Копиране на подробности"
 
-#: ui/main.qml:238
+#: ui/main.qml:208
 #, kde-format
 msgctxt "@action:button Copy Details..."
 msgid "In current language"
 msgstr "На текущия език"
 
-#: ui/main.qml:244
+#: ui/main.qml:214
 #, kde-format
 msgctxt "@action:button Copy Details..."
 msgid "In English"

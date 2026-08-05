@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm-about-distro\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-30 00:42+0000\n"
+"POT-Creation-Date: 2026-06-26 02:42+0000\n"
 "PO-Revision-Date: 2016-06-19 15:35+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
@@ -73,6 +73,15 @@ msgctxt "@label GPU type. GPU of a virtual machine"
 msgid "virtual"
 msgstr ""
 
+# >! Contexts.
+#: GPUEntryFactory.cpp:243
+#, fuzzy, kde-format
+#| msgctxt "Unknown amount of RAM"
+#| msgid "Unknown"
+msgctxt "unknown GPU name"
+msgid "Unknown"
+msgstr "nepoznato"
+
 # >> @item
 #: GraphicsPlatformEntry.cpp:10
 #, fuzzy, kde-format
@@ -95,33 +104,33 @@ msgctxt "@label %1 is the kernel version, %2 CPU bit width (e.g. 32 or 64)"
 msgid "%1 (%2-bit)"
 msgstr "%1‑bitno"
 
-#: main.cpp:199
+#: main.cpp:201
 #, kde-format
 msgctxt "@label"
 msgid "Manufacturer:"
 msgstr ""
 
-#: main.cpp:202 main.cpp:219
+#: main.cpp:204 main.cpp:221
 #, kde-format
 msgctxt "@label"
 msgid "Product Name:"
 msgstr ""
 
-#: main.cpp:205
+#: main.cpp:207
 #, fuzzy, kde-format
 #| msgid "Qt Version:"
 msgctxt "@label"
 msgid "System Version:"
 msgstr "Izdanje Qt‑a:"
 
-#: main.cpp:208 main.cpp:222
+#: main.cpp:210 main.cpp:224
 #, kde-format
 msgctxt "@label"
 msgid "Serial Number:"
 msgstr ""
 
 # >! Contexts.
-#: main.cpp:212 main.cpp:229
+#: main.cpp:214 main.cpp:231
 #, fuzzy, kde-format
 #| msgctxt "Unknown amount of RAM"
 #| msgid "Unknown"
@@ -129,19 +138,19 @@ msgctxt "@label unknown entry in table"
 msgid "Unknown:"
 msgstr "nepoznato"
 
-#: main.cpp:225
+#: main.cpp:227
 #, fuzzy, kde-format
 #| msgid "Qt Version:"
 msgctxt "@label uboot is the name of a bootloader for embedded devices"
 msgid "U-Boot Version:"
 msgstr "Izdanje Qt‑a:"
 
-#: main.cpp:263
+#: main.cpp:265
 #, kde-format
 msgid "SonicDE Frameworks Version:"
 msgstr "Izdanje Radnih okvira KDE‑a:"
 
-#: main.cpp:264
+#: main.cpp:266
 #, kde-format
 msgid "Qt Version:"
 msgstr "Izdanje Qt‑a:"
@@ -253,13 +262,13 @@ msgctxt "@action:button"
 msgid "Copy"
 msgstr ""
 
-#: ui/main.qml:179
+#: ui/main.qml:149
 #, kde-format
 msgctxt "@action:button show a hidden entry in an overlay"
 msgid "Show"
 msgstr ""
 
-#: ui/main.qml:191
+#: ui/main.qml:161
 #, fuzzy, kde-format
 #| msgid "Software"
 msgctxt "@title:group"
@@ -267,26 +276,26 @@ msgid "Software"
 msgstr "Softver"
 
 # >> @item category
-#: ui/main.qml:201
+#: ui/main.qml:171
 #, fuzzy, kde-format
 #| msgid "Hardware"
 msgctxt "@title:group"
 msgid "Hardware"
 msgstr "Hardver"
 
-#: ui/main.qml:218
+#: ui/main.qml:188
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1…"
 msgstr ""
 
-#: ui/main.qml:219
+#: ui/main.qml:189
 #, kde-format
 msgctxt "@info:tooltip launches kinfocenter from systemsettings"
 msgid "See more detailed system information"
 msgstr ""
 
-#: ui/main.qml:227 ui/main.qml:235
+#: ui/main.qml:197 ui/main.qml:205
 #, fuzzy, kde-format
 #| msgctxt "EMAIL OF TRANSLATORS"
 #| msgid "Your emails"
@@ -294,13 +303,13 @@ msgctxt "@action:button"
 msgid "Copy Details"
 msgstr "caslav.ilic@gmx.net"
 
-#: ui/main.qml:238
+#: ui/main.qml:208
 #, kde-format
 msgctxt "@action:button Copy Details..."
 msgid "In current language"
 msgstr ""
 
-#: ui/main.qml:244
+#: ui/main.qml:214
 #, kde-format
 msgctxt "@action:button Copy Details..."
 msgid "In English"

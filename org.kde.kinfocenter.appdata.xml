@@ -84,6 +84,7 @@
   <summary xml:lang="pt-BR">Aprenda sobre o hardware do sistema e status</summary>
   <summary xml:lang="ro">Aflați informații despre echipament și starea sistemului</summary>
   <summary xml:lang="ru">Получение сведений об аппаратном обеспечении и состоянии системы</summary>
+  <summary xml:lang="sk">Informácie o hardvéri a stave systému</summary>
   <summary xml:lang="sl">Spoznajte strojno opremo in stanje sistema</summary>
   <summary xml:lang="sv">Ta reda på mer om systemets hårdvara och status</summary>
   <summary xml:lang="tr">Sistemdeki donanım ve sistem durumu hakkında bilgi alın</summary>
@@ -210,9 +211,9 @@
   </provides>
   <project_group>KDE</project_group>
   <releases>
+    <release version="6.7.2" date="2026-06-30"/>
+    <release version="6.7.1" date="2026-06-23"/>
+    <release version="6.7.0" date="2026-06-16"/>
     <release version="6.6.5" date="2026-05-12"/>
-    <release version="6.6.4" date="2026-04-06"/>
-    <release version="6.6.3" date="2026-03-17"/>
-    <release version="6.6.2" date="2026-03-03"/>
   </releases>
 </component>

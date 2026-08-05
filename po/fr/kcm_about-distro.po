@@ -1,6 +1,6 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# SPDX-FileCopyrightText: 2013, 2021, 2022, 2023, 2024, 2025 Xavier Besnard <xavier.besnard@kde.org>
+# SPDX-FileCopyrightText: 2013, 2021-2026 Xavier Besnard <xavier.besnard@kde.org>
 # Joëlle Cornavin <jcorn@free.fr>, 2013.
 # Geoffray Levasseur <geoffray.levasseur-brandin@ac-toulouse.fr>, 2014.
 # Maxime Corteel <mcorteel@gmail.com>, 2015, 2016.
@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-30 00:42+0000\n"
-"PO-Revision-Date: 2026-04-02 21:04+0200\n"
+"POT-Creation-Date: 2026-06-26 02:42+0000\n"
+"PO-Revision-Date: 2026-06-27 14:26+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Accelerator-Marker: &\n"
 "X-Environment: kde\n"
-"X-Generator: Lokalize 25.04.0\n"
+"X-Generator: Lokalize 26.04.2\n"
 "X-Text-Markup: kde4\n"
 
 #: CPUEntry.cpp:17
@@ -62,13 +62,19 @@ msgstr "intégré"
 #, kde-format
 msgctxt "@label GPU type"
 msgid "discrete"
-msgstr "discret"
+msgstr "Dédié"
 
 #: GPUEntry.cpp:32
 #, kde-format
 msgctxt "@label GPU type. GPU of a virtual machine"
 msgid "virtual"
 msgstr "virtuel"
+
+#: GPUEntryFactory.cpp:243
+#, kde-format
+msgctxt "unknown GPU name"
+msgid "Unknown"
+msgstr "Inconnu"
 
 #: GraphicsPlatformEntry.cpp:10
 #, kde-format
@@ -86,48 +92,48 @@ msgctxt "@label %1 is the kernel version, %2 CPU bit width (e.g. 32 or 64)"
 msgid "%1 (%2-bit)"
 msgstr "%1 (%2-bit)"
 
-#: main.cpp:199
+#: main.cpp:201
 #, kde-format
 msgctxt "@label"
 msgid "Manufacturer:"
 msgstr "Fabricant :"
 
-#: main.cpp:202 main.cpp:219
+#: main.cpp:204 main.cpp:221
 #, kde-format
 msgctxt "@label"
 msgid "Product Name:"
 msgstr "Nom du produit :"
 
-#: main.cpp:205
+#: main.cpp:207
 #, kde-format
 msgctxt "@label"
 msgid "System Version:"
 msgstr "Version du système :"
 
-#: main.cpp:208 main.cpp:222
+#: main.cpp:210 main.cpp:224
 #, kde-format
 msgctxt "@label"
 msgid "Serial Number:"
 msgstr "Numéro de série :"
 
-#: main.cpp:212 main.cpp:229
+#: main.cpp:214 main.cpp:231
 #, kde-format
 msgctxt "@label unknown entry in table"
 msgid "Unknown:"
 msgstr "Inconnu :"
 
-#: main.cpp:225
+#: main.cpp:227
 #, kde-format
 msgctxt "@label uboot is the name of a bootloader for embedded devices"
 msgid "U-Boot Version:"
 msgstr "Version de « U-Boot » :"
 
-#: main.cpp:263
+#: main.cpp:265
 #, kde-format
-msgid "SonicDE Frameworks Version:"
-msgstr "Version de SonicDE Frameworks :"
+msgid "KDE Frameworks Version:"
+msgstr "Version de KDE Frameworks :"
 
-#: main.cpp:264
+#: main.cpp:266
 #, kde-format
 msgid "Qt Version:"
 msgstr "Version de Qt :"
@@ -219,8 +225,8 @@ msgstr "Compilation %1 %2 : %3"
 
 #: PlasmaEntry.cpp:15
 #, kde-format
-msgid "SonicDE Version:"
-msgstr "Version de SonicDE :"
+msgid "KDE Plasma Version:"
+msgstr "Version de KDE Plasma :"
 
 #: ThirdPartyEntry.cpp:12
 #, kde-format
@@ -240,49 +246,49 @@ msgctxt "@action:button"
 msgid "Copy"
 msgstr "Copier"
 
-#: ui/main.qml:179
+#: ui/main.qml:149
 #, kde-format
 msgctxt "@action:button show a hidden entry in an overlay"
 msgid "Show"
 msgstr "Afficher"
 
-#: ui/main.qml:191
+#: ui/main.qml:161
 #, kde-format
 msgctxt "@title:group"
 msgid "Software"
 msgstr "Logiciel"
 
-#: ui/main.qml:201
+#: ui/main.qml:171
 #, kde-format
 msgctxt "@title:group"
 msgid "Hardware"
 msgstr "Matériel"
 
-#: ui/main.qml:218
+#: ui/main.qml:188
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1…"
 msgstr "Lancer %1..."
 
-#: ui/main.qml:219
+#: ui/main.qml:189
 #, kde-format
 msgctxt "@info:tooltip launches kinfocenter from systemsettings"
 msgid "See more detailed system information"
 msgstr "Veuillez consulter des informations plus détaillées sur le système"
 
-#: ui/main.qml:227 ui/main.qml:235
+#: ui/main.qml:197 ui/main.qml:205
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
 msgstr "Copier les détails"
 
-#: ui/main.qml:238
+#: ui/main.qml:208
 #, kde-format
 msgctxt "@action:button Copy Details..."
 msgid "In current language"
 msgstr "Dans la langue courante"
 
-#: ui/main.qml:244
+#: ui/main.qml:214
 #, kde-format
 msgctxt "@action:button Copy Details..."
 msgid "In English"

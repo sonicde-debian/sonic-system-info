@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-30 00:42+0000\n"
-"PO-Revision-Date: 2026-05-09 15:09+0200\n"
+"POT-Creation-Date: 2026-06-26 02:42+0000\n"
+"PO-Revision-Date: 2026-06-27 12:18+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: pl\n"
 "Language: pl\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 26.04.0\n"
+"X-Generator: Lokalize 26.04.2\n"
 
 #: CPUEntry.cpp:17
 #, kde-format
@@ -63,6 +63,12 @@ msgctxt "@label GPU type. GPU of a virtual machine"
 msgid "virtual"
 msgstr "wirtualny"
 
+#: GPUEntryFactory.cpp:243
+#, kde-format
+msgctxt "unknown GPU name"
+msgid "Unknown"
+msgstr "Nieznany"
+
 #: GraphicsPlatformEntry.cpp:10
 #, kde-format
 msgid "Graphics Platform:"
@@ -79,48 +85,48 @@ msgctxt "@label %1 is the kernel version, %2 CPU bit width (e.g. 32 or 64)"
 msgid "%1 (%2-bit)"
 msgstr "%1 (%2-bity)"
 
-#: main.cpp:199
+#: main.cpp:201
 #, kde-format
 msgctxt "@label"
 msgid "Manufacturer:"
 msgstr "Wytwórca:"
 
-#: main.cpp:202 main.cpp:219
+#: main.cpp:204 main.cpp:221
 #, kde-format
 msgctxt "@label"
 msgid "Product Name:"
 msgstr "Nazwa produktu:"
 
-#: main.cpp:205
+#: main.cpp:207
 #, kde-format
 msgctxt "@label"
 msgid "System Version:"
 msgstr "Wersja systemu:"
 
-#: main.cpp:208 main.cpp:222
+#: main.cpp:210 main.cpp:224
 #, kde-format
 msgctxt "@label"
 msgid "Serial Number:"
 msgstr "Numer seryjny:"
 
-#: main.cpp:212 main.cpp:229
+#: main.cpp:214 main.cpp:231
 #, kde-format
 msgctxt "@label unknown entry in table"
 msgid "Unknown:"
 msgstr "Nieznany:"
 
-#: main.cpp:225
+#: main.cpp:227
 #, kde-format
 msgctxt "@label uboot is the name of a bootloader for embedded devices"
 msgid "U-Boot Version:"
 msgstr "Wersja U-Boot:"
 
-#: main.cpp:263
+#: main.cpp:265
 #, kde-format
-msgid "SonicDE Frameworks Version:"
+msgid "KDE Frameworks Version:"
 msgstr "Wersja Szkieletów KDE:"
 
-#: main.cpp:264
+#: main.cpp:266
 #, kde-format
 msgid "Qt Version:"
 msgstr "Wersja Qt:"
@@ -212,7 +218,7 @@ msgstr "%1 %2 Wydanie: %3"
 
 #: PlasmaEntry.cpp:15
 #, kde-format
-msgid "SonicDE Version:"
+msgid "KDE Plasma Version:"
 msgstr "Wersja Plazmy KDE:"
 
 #: ThirdPartyEntry.cpp:12
@@ -233,49 +239,49 @@ msgctxt "@action:button"
 msgid "Copy"
 msgstr "Skopiuj"
 
-#: ui/main.qml:179
+#: ui/main.qml:149
 #, kde-format
 msgctxt "@action:button show a hidden entry in an overlay"
 msgid "Show"
 msgstr "Pokaż"
 
-#: ui/main.qml:191
+#: ui/main.qml:161
 #, kde-format
 msgctxt "@title:group"
 msgid "Software"
 msgstr "Oprogramowanie"
 
-#: ui/main.qml:201
+#: ui/main.qml:171
 #, kde-format
 msgctxt "@title:group"
 msgid "Hardware"
 msgstr "Sprzęt"
 
-#: ui/main.qml:218
+#: ui/main.qml:188
 #, kde-format
 msgctxt "@action:button"
 msgid "Launch %1…"
 msgstr "Uruchom %1…"
 
-#: ui/main.qml:219
+#: ui/main.qml:189
 #, kde-format
 msgctxt "@info:tooltip launches kinfocenter from systemsettings"
 msgid "See more detailed system information"
 msgstr "Obejrzyj bardziej szczegółowe dane o systemie"
 
-#: ui/main.qml:227 ui/main.qml:235
+#: ui/main.qml:197 ui/main.qml:205
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
 msgstr "Skopiuj szczegóły"
 
-#: ui/main.qml:238
+#: ui/main.qml:208
 #, kde-format
 msgctxt "@action:button Copy Details..."
 msgid "In current language"
 msgstr "W bieżącym języku"
 
-#: ui/main.qml:244
+#: ui/main.qml:214
 #, kde-format
 msgctxt "@action:button Copy Details..."
 msgid "In English"
